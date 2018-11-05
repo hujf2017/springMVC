@@ -8,8 +8,8 @@
         http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.1.xsd">                    
 
     <!-- scan the package and the sub package -->
-    <context:component-scan base-package="test.SpringMVC"/>
-
+	<context:component-scan base-package="com.hd.Controller">
+	</context:component-scan>
     <!-- don't handle the static resource -->
     <mvc:default-servlet-handler />
 
@@ -22,6 +22,6 @@
         <!-- 前缀 -->
         <property name="prefix" value="/WEB-INF/jsp/" />
         <!-- 后缀 -->
-        <property name="suffix" value=".jpg" />
+        <property name="suffix" value=".jsp" />
     </bean>
 </beans>

@@ -9,6 +9,19 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  
+  <!-- 加载spring容器 -->
+  <context-param>
+  	<param-name>contextConfigLocation</param-name>
+  	<param-value>classpath:Spring.xml</param-value>
+  </context-param>
+  
+  <listener>
+		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+  </listener>
+  
+  
+  
   <!--configure the setting of springmvcDispatcherServlet and configure the mapping-->
   <servlet>
       <servlet-name>springmvc</servlet-name>
@@ -19,6 +32,8 @@
         </init-param>
         <!-- <load-on-startup>1</load-on-startup> -->
   </servlet>
+  
+  <!-- 资源配置 -->
   <servlet-mapping>
       <servlet-name>springmvc</servlet-name>
       <url-pattern>/</url-pattern>

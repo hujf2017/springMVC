@@ -4,11 +4,18 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>界面标题</title>
+<title>登录</title>
 </head>
 <body>
  
-<a href="mvc/hello" >hello world</a>
- 
+    <form method="post" action="sysAdmin/AdminLogin">
+       	 用户名：<input type="text" name="LoginId" />
+        <br /><br />
+        密码：<input type="password" name="Loginpwd"/>
+        <br /><br />
+        <input type="submit" value="登录" /><br />
+        
+    </form>
+ 	<a href="mvc/hello" >hello world</a>
 </body>
 </html>
