@@ -7,8 +7,8 @@
 <title>登录</title>
 </head>
 <body>
- 
-    <form method="post" action="sysAdmin/AdminLogin">
+ <!-- 
+    <form method="post" action="user/save">
        	 用户名：<input type="text" name="LoginId" />
         <br /><br />
         密码：<input type="password" name="Loginpwd"/>
@@ -16,6 +16,16 @@
         <input type="submit" value="登录" /><br />
         
     </form>
- 	<a href="mvc/hello" >hello world</a>
+ 	<a href="mvc/hello" >hello world</a> -->
+ 	
+ 	
+ 	
+ 	 <form action="user/save" method="post">
+		用户 <input type="text" name="username" /><br /> 
+		密码 <input type="text" name="password" /><br /> 
+		<input type="submit" value="添加">
+	</form>
+
+
 </body>
 </html>
