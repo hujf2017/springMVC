@@ -10,5 +10,7 @@
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/spring"/>
 	<classpathentry kind="lib" path="D:/spring/spring-framework-4.0.4.RELEASE-dist/spring-framework-4.0.4.RELEASE/libs/servlet-api.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/mybatis"/>
+	<classpathentry kind="lib" path="D:/spring/spring-framework-4.0.4.RELEASE-dist/spring-framework-4.0.4.RELEASE/mybatis/mybatis-spring/1.2.2/mybatis-spring-1.2.2.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
